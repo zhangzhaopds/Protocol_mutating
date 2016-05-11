@@ -14,6 +14,7 @@
 		E2F0D38D1CE32A8000414AC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F0D38B1CE32A8000414AC3 /* LaunchScreen.storyboard */; };
 		E2F0D3981CE32A8000414AC3 /* Protocol_mutatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0D3971CE32A8000414AC3 /* Protocol_mutatingTests.swift */; };
 		E2F0D3A31CE32A8000414AC3 /* Protocol_mutatingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0D3A21CE32A8000414AC3 /* Protocol_mutatingUITests.swift */; };
+		E2F0D3B11CE32AE700414AC3 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0D3B01CE32AE700414AC3 /* Vehicle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E2F0D39E1CE32A8000414AC3 /* Protocol_mutatingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Protocol_mutatingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F0D3A21CE32A8000414AC3 /* Protocol_mutatingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol_mutatingUITests.swift; sourceTree = "<group>"; };
 		E2F0D3A41CE32A8000414AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F0D3B01CE32AE700414AC3 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E2F0D3821CE32A8000414AC3 /* AppDelegate.swift */,
 				E2F0D3841CE32A8000414AC3 /* ViewController.swift */,
+				E2F0D3B01CE32AE700414AC3 /* Vehicle.swift */,
 				E2F0D3861CE32A8000414AC3 /* Main.storyboard */,
 				E2F0D3891CE32A8000414AC3 /* Assets.xcassets */,
 				E2F0D38B1CE32A8000414AC3 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F0D3B11CE32AE700414AC3 /* Vehicle.swift in Sources */,
 				E2F0D3851CE32A8000414AC3 /* ViewController.swift in Sources */,
 				E2F0D3831CE32A8000414AC3 /* AppDelegate.swift in Sources */,
 			);
